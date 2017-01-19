@@ -26,7 +26,7 @@ html {
 .hand-hour {
   position: absolute;
   left: 47%;
-  top: 47%;
+  top: 48%;
   transform-origin: center top;
   animation: spin 6s infinite linear;
 }
@@ -34,7 +34,7 @@ html {
 .hand-minute {
   position: absolute;
   left: 47%;
-  top: 47%;
+  top: 20%;
   transform-origin: center bottom;
   animation: spin 1s infinite linear;
 }
@@ -42,10 +42,10 @@ html {
 @keyframes spin {
 
   0% {
-    transform: rotate(0deg);
+    transform: rotate(-0deg);
   }
 
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }

@@ -20,6 +20,7 @@ html {
 
 .hand {
   width: 14px;
+  position: absolute;
 }
 
 .hand-hour {
@@ -34,11 +35,11 @@ html {
   position: absolute;
   left: 47%;
   top: 47%;
-  transform-origin: center top;
-  animation: spin 6s infinite linear;
+  transform-origin: center bottom;
+  animation: spin 1s infinite linear;
 }
 
-@keyframes identifier {
+@keyframes spin {
 
   0% {
     transform: rotate(0deg);

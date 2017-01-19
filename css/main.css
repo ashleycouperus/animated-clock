@@ -26,10 +26,25 @@ html {
   position: absolute;
   left: 47%;
   top: 47%;
+  transform-origin: center top;
+  animation: spin 6s infinite linear;
 }
 
 .hand-minute {
   position: absolute;
   left: 47%;
   top: 47%;
+  transform-origin: center top;
+  animation: spin 6s infinite linear;
+}
+
+@keyframes identifier {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
